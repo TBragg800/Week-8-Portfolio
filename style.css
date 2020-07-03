@@ -2,6 +2,10 @@ header nav ul li:hover {
     font-family: 'Dancing Script', cursive;
 }
 
+.mynavbar {
+    background-color: darkslategray;
+}
+
 
 div img {
     width: auto;
@@ -12,11 +16,12 @@ div img {
     height: 100%;
     width: 100%;
     margin: auto;
-    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
-    background-color: #e6dca8;
+    background-color:#d1dfffb5;
+    background-image: url('assets/portfolio-bg.jpg');
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 .mycol {
@@ -39,23 +44,19 @@ div img {
 }
 
 .mybg2 {
-    background-color: rgb(245, 235, 217);
-}
-
-.myborder {
-    border-style: solid;
-    color:  darkslategrey;  
-    width: 100%;
+    background-color: transparent;
+    /* box-shadow: 0 0 10px 2px; */
 }
 
 h1 {
     font-size: 50px;
-    color: rgba(255, 235, 205, 0.692);
+    color: rgba(171, 134, 80, 0.845);
     font-family: 'Dancing Script', cursive;
 }
 
 .h1bg {
-    background-color: darkslategrey;
+    background-color: rgba(47, 79, 79, 0.803);
+
 }
 
 .mycenter {
@@ -68,3 +69,4 @@ h1 {
     width: 32px;
     height: 32px;
 }
+/* assets/portfolio-bg.jpg */
