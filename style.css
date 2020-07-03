@@ -1,0 +1,70 @@
+header nav ul li:hover {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+div img {
+    width: auto;
+    height: auto;
+}
+
+.mybg {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+    background-color: #e6dca8;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 60px;
+}
+
+.mycol {
+    height: 300px;
+    width: 225px;
+    border: darkslategray;
+    border-style: solid;
+}
+
+.myp1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: darkslategray;
+}
+
+.myp2 {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+}
+
+.mybg2 {
+    background-color: rgb(245, 235, 217);
+}
+
+.myborder {
+    border-style: solid;
+    color:  darkslategrey;  
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgba(255, 235, 205, 0.692);
+    font-family: 'Dancing Script', cursive;
+}
+
+.h1bg {
+    background-color: darkslategrey;
+}
+
+.mycenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myicon {
+    width: 32px;
+    height: 32px;
+}
