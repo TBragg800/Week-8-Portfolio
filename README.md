@@ -23,7 +23,7 @@ The purpose of this assignment is to create a responsive 3 page portfolio. The s
 
 
 #### Screenshot of deployed application
-![](assets/indexpg)
-![](Assets/portfoliopg)
-![](Assets/contactpg)
-![](Assets/resumepg)
+![](assets/indexpg.png)
+![](Assets/portfoliopg.png)
+![](Assets/contactpg.png)
+![](Assets/resumepg.png)
