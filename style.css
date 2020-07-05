@@ -1,11 +1,15 @@
+.navFont {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(171, 134, 80, 0.845);
+    text-shadow: -1px 2px rgba(93, 100, 103, 0.952);
+    -webkit-text-stroke: 1px rgba(171, 134, 80, 0.952);
+}
+
 header nav ul li:hover {
     font-family: 'Dancing Script', cursive;
+    color: rgba(171, 134, 80, 0.845);
 }
-
-.mynavbar {
-    background-color: darkslategray;
-}
-
 
 div img {
     width: auto;
@@ -28,7 +32,7 @@ div img {
 .mycol {
     height: 300px;
     width: 225px;
-    border: darkslategray;
+    border: rgba(76, 28, 28, 0.94);
     border-style: solid;
 }
 
@@ -46,17 +50,23 @@ div img {
 
 .mybg2 {
     background-color: transparent;
-    /* box-shadow: 0 0 10px 2px; */
 }
 
 h1 {
-    font-size: 50px;
-    color: rgba(171, 134, 80, 0.845);
+    font-size: 70px;
+    color: rgba(171, 134, 80, 0.845); 
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    text-shadow: -3px 3px #911b1bc2;
+    /* -ms-transform: skewY(-5deg); */
+    transform: skewY(-5deg);
 }
+/* rgba(62, 69, 72, 0.94) */
+/* rgba(76, 28, 28, 0.94) */
+/* #911b1bc2 */
 
 .h1bg {
-    background-color: rgba(47, 79, 79, 0.803);
+    background-color: rgba(76, 28, 28, 0.94);
 
 }
 
@@ -73,7 +83,7 @@ h2 {
     background-color: transparent;
     width: 400px;
     height: 300px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    perspective: 1000px;
   }
   
   /* This container is needed to position the front and back side */
@@ -127,6 +137,7 @@ h2 {
 .iframe-container {
     overflow: hidden;
     padding-top: 56.25%;
+    padding-bottom: 15%;
     position: relative;
   }
    
@@ -153,4 +164,5 @@ h2 {
     .port-marg {
         margin: auto;
     }
+
     }
