@@ -132,8 +132,10 @@ color: black;
 }
 /* Footer icon sizing */
 .myicon {
-    width: 32px;
-    height: 32px;
+    /* width: 32px;
+    height: 32px; */
+    font-size: 32px;
+    margin-left: 10px;
 }
 /* Container for resume iframe */
 .iframe-container {
